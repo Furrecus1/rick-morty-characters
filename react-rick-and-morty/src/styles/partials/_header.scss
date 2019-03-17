@@ -1,0 +1,21 @@
+.header{
+    background-color:$title-color;
+    height: 80px;
+   
+    
+    img{
+        width: 80px;
+        float: left;
+    }
+    h1{
+        color: $main-bg-color;
+        font-weight: bold;
+        margin: 0;
+        padding: 10px;
+        font-size: 28px;
+        @media only screen and (min-width: 520px) {
+            font-size: 30px;
+            padding-top: 20px;
+        }
+    }
+}

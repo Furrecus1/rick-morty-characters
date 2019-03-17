@@ -1,0 +1,10 @@
+.search{
+    margin: 20px 15px;
+    @media only screen and (min-width: 510px) {
+            margin-bottom: 0px;
+        }
+    input{
+        height: 40px;
+    }
+    
+}

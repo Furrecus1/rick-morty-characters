@@ -1,0 +1,11 @@
+$font: "https://fonts.googleapis.com/css?family=Open+Sans:400,800";
+
+@if(global_variable_exists(font)) {
+@import url($font);
+}
+
+$font-open: Open Sans;
+
+$main-bg-color: #161b21;
+
+$title-color: #f4a950;
